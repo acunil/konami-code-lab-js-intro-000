@@ -17,7 +17,7 @@ function init() {
     
     if (event.key === codes[index]) {
       index ++;
-      console.log("code++")
+      console.log("code++");
       
       if (index === codes.length) {
         alert("Hurray!");
