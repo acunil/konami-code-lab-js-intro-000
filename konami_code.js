@@ -39,6 +39,12 @@ function init() {
     if (event.key === codes[index]){
       console.log("correct");
       index++;
+      if (index === codes.length) {
+        alert("Hurray!");
+        index = 0;
+      }
+    } else {
+      index = 0;
     }
   });
 }
