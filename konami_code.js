@@ -38,6 +38,7 @@ function init() {
     console.log(event.key);
     if (event.key === codes[index]){
       console.log("correct");
+      index++;
     }
   });
 }
