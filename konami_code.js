@@ -36,5 +36,8 @@ let index = 0;
 function init() {
   document.body.addEventListener('keydown', (event) => {
     console.log(event.key);
+    if (event.key === codes[index]){
+      console.log("correct");
+    }
   });
 }
