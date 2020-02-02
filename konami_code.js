@@ -11,23 +11,23 @@ const codes = [
   "a"
 ];
 
-function init() {
-  document.body.addEventListener("keydown", event => {
-    let index = 0;
+// function init() {
+//   document.body.addEventListener("keydown", event => {
+//     let index = 0;
     
-    function onKeyDownHandler(event){
-      const key = event.key;
+//     function onKeyDownHandler(event){
+//       const key = event.key;
     
-    if (key === codes[index]) {
-      index ++;
+//     if (key === codes[index]) {
+//       index ++;
       
-      if (index === codes.length) {
-        alert("Hurray!");
-        index = 0;
-      }
-    } else {
-      index = 0;
-    }
-    }
-  });
-}
+//       if (index === codes.length) {
+//         alert("Hurray!");
+//         index = 0;
+//       }
+//     } else {
+//       index = 0;
+//     }
+//     }
+//   });
+// }
