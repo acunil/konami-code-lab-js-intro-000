@@ -15,8 +15,7 @@ const codes = [
 //   document.body.addEventListener("keydown", event => {
 //     let index = 0;
     
-//     function onKeyDownHandler(event){
-//       const key = event.key;
+//     const key = event.key;
     
 //     if (key === codes[index]) {
 //       index ++;
@@ -27,7 +26,6 @@ const codes = [
 //       }
 //     } else {
 //       index = 0;
-//     }
 //     }
 //   });
 // }
